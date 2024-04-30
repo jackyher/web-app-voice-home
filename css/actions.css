@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Aplicar Poppins a todo el cuerpo */
+    background-color: whitesmoke;
+}
+
+.navbar-custom {
+    background-color: #c9dfff; /* Aplicar el color azul cielo */
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.brand-with-image {
+    margin-left: 8px;
+}
+
+.margin {
+    margin-bottom: 15px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-color: #bcd6fc;
+    text-decoration-thickness: 3px; /*Grosor de la línea*/
+}
+
+.lista {
+    text-align: justify;
+}
+
+.lista li {
+    margin-bottom: 10px;
+}
+
+.mt-custom {
+    margin-top: 80px;
+}

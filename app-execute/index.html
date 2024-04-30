@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/actions.css">
+    <title>App | Detección de voz</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-light navbar-custom fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand small-text">
+                    <img src="../media/sonido-de-onda.png" alt="" width="30" height="24" class="d-inline-block align-text-top"/>
+                    <span class="brand-with-image">Aplicación de Detección de voz</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-custom">
+        <h1 class="fs-3 fw-bold">Bienvenido a tu asistente "Yaquis"</h1>
+    </div>
+
+    <div id="commands">
+        <div class="container mt-5 margin">
+            <p class="lista">
+                La aplicación estará siempre escuchándote, por lo que para empezar a dar las órdenes 
+                tienes que decir "Yaquis" seguido de la instrucción que deseas ejecutar, tal y como se 
+                muestra en el ejemplo.
+            </p>
+            <div class="container mt-4 margin" id="result">
+                <p class="fst-italic text-center underline">"Yaquis, enciende la luz de la recámara"</p>
+            </div>
+        </div>
+    
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="../media/plano_casa.png" alt="Plano de casa" class="img-fluid">
+                </div>
+                <div class="col-md-9">
+                    <h2 class="fw-bold fs-6 container mt-3">¿Qué puedo hacer?</h2>
+                    <ul class="lista container mt-4">
+                        <li>
+                            Para encender/apagar la luz de la recámara, di 
+                            <span class="fw-bold">"enciende/apaga la luz de la recámara"</span>.
+                        </li>
+                        <li>
+                            Para encender/apagar la luz de la sala, di 
+                            <span class="fw-bold">"enciende/apaga la luz de la sala"</span>.
+                        </li>
+                        <li>
+                            Para encender/apagar las luces del jardín, di 
+                            <span class="fw-bold">"enciende/apaga las luces del jardín"</span>.
+                        </li>
+                        <li>
+                            Para encender/apagar el ventilador, di 
+                            <span class="fw-bold">"enciende/apaga el ventilador"</span>.
+                        </li>
+                        <li>
+                            Para abrir/cerrar las cortinas, di 
+                            <span class="fw-bold">"abre/cierra las cortinas"</span>.
+                        </li>
+                        <li>
+                            Para activar/desactivar la alarma de la casa, di 
+                            <span class="fw-bold">"activa/desactiva la alarma de la casa"</span>.
+                        </li>
+                        <li>
+                            Para encender/apagar las cámaras de seguridad, di 
+                            <span class="fw-bold">"enciende/apaga las cámaras de seguridad"</span>.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer container mt-3">
+        <div class="container-fluid text-center">
+            <p style="font-size: 0.85rem;">&copy; 2024 Todos los derechos reservados. Jacqueline Hernández.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
